@@ -54,7 +54,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'https://assakiinahstore.com'),
+    'url' => env('APP_URL', 'http://localhost'),
 
     'asset_url' => env('ASSET_URL'),
 
@@ -121,7 +121,7 @@ return [
     |
     */
 
-    'key' => env('APP_KEY','670si9g94tcptxetun1gsccbdv4qn3fl'),
+    'key' => env('APP_KEY'),
 
     'cipher' => 'AES-256-CBC',
 
